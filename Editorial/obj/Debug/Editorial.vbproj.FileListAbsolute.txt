@@ -1,10 +1,10 @@
-C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\bin\Debug\Editorial.dll
-C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\bin\Debug\Editorial.pdb
-C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\bin\Debug\Editorial.xml
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\obj\Debug\Editorial.vbprojAssemblyReference.cache
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\obj\Debug\Editorial.Resources.resources
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\obj\Debug\Editorial.vbproj.GenerateResource.cache
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\obj\Debug\Editorial.vbproj.CoreCompileInputs.cache
+C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\bin\Debug\Editorial.dll
+C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\bin\Debug\Editorial.pdb
+C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\bin\Debug\Editorial.xml
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\obj\Debug\Editorial.dll
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\obj\Debug\Editorial.xml
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Editorial\obj\Debug\Editorial.pdb

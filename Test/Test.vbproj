@@ -4,9 +4,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F6B2A2C6-265A-469A-ABD6-DB5D1520B227}</ProjectGuid>
+    <ProjectGuid>{D5CB2FDE-2E00-410C-980A-098B4195FCAF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Test.TestEditorial</StartupObject>
+    <StartupObject>Test.TestLibro</StartupObject>
     <RootNamespace>Test</RootNamespace>
     <AssemblyName>Test</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -70,9 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestAutor.vb" />
-    <Compile Include="TestBorrador.vb" />
-    <Compile Include="TestEditor.vb" />
-    <Compile Include="TestLibro.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -88,7 +85,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TestBorrador.vb" />
+    <Compile Include="TestEditor.vb" />
     <Compile Include="TestEditorial.vb" />
+    <Compile Include="TestLibro.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -112,7 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Editorial\Editorial.vbproj">
-      <Project>{9dd017fb-d621-4ef9-a316-8e49dd1cc1cb}</Project>
+      <Project>{ad53d404-d4e5-42e0-a806-6d605f5066d6}</Project>
       <Name>Editorial</Name>
     </ProjectReference>
   </ItemGroup>

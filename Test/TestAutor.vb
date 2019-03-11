@@ -1,40 +1,32 @@
 ﻿Imports Editorial
 Module TestAutor
-    Sub main()
+    Sub Main()
         Try
-            Dim autor As New Autor(0, "Nombre Autor")
-            Console.WriteLine()
-        Catch ex As Exception
-            Console.WriteLine(ex.Message)
-        End Try
-        Try
-            Dim autor As New Autor(123455432, "")
-            Console.WriteLine()
-        Catch ex As Exception
-            Console.WriteLine(ex.Message)
-        End Try
-        Try
-            Dim autor As New Autor(123455432, "Nombre Autor")
-            Dim libro As New Libro("s1234", "Titulo Libro", 600.0)
-            Dim Borrador As New Borrador("Titulo Borrador", 200.0)
-            autor.addMaterial(libro)
-            autor.addMaterial(Borrador)
-            Console.WriteLine("-> Listado de Materiales:")
-            For Each material In autor.getAllMateriales()
-                Console.WriteLine("-{0} + {1}", material.Titulo, material.MontoContrato)
-            Next
-            Console.WriteLine("Ganancias:" & autor.CalcularGanancia())
-            autor.removeMaterial(libro)
-            Console.WriteLine("-> Listado de Materiales sin libro:")
-            For Each material In autor.getAllMateriales()
-                Console.WriteLine("-{0} + {1}", material.Titulo, material.MontoContrato)
-            Next
-            Console.WriteLine("Ganancias:" & autor.CalcularGanancia())
+            Dim autor As New Autor(234234, "fa")
         Catch ex As Exception
             Console.WriteLine(ex.Message)
         End Try
 
-
+        Try
+            Dim autor As New Autor(12345678, "fabio")
+            Dim libro As New Libro("s1233", "el principito", 200)
+            Dim libro2 As New Libro("s1233", " princesa", 50)
+            Libro.PorcentajeEditorPorLibro = 10
+            autor.AddMaterial(libro)
+            autor.AddMaterial(libro2)
+            Console.WriteLine("Calculo ganancia: {0}", autor.CalcularGanancia)
+            Console.WriteLine("Listado de materiales: ")
+            For Each material In autor.GetAllMateriales()
+                Console.WriteLine(material)
+            Next
+            autor.RemoveMaterial(libro2)
+            Console.WriteLine("Listado de materiales sin libro2: ")
+            For Each material In autor.GetAllMateriales()
+                Console.WriteLine(material)
+            Next
+        Catch ex As Exception
+            Console.WriteLine(ex.Message)
+        End Try
         Console.ReadKey()
     End Sub
 End Module

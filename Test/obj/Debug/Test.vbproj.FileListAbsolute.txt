@@ -1,3 +1,7 @@
+C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.vbprojAssemblyReference.cache
+C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.Resources.resources
+C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.vbproj.GenerateResource.cache
+C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.vbproj.CoreCompileInputs.cache
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\bin\Debug\Test.exe.config
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\bin\Debug\Test.exe
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\bin\Debug\Test.pdb
@@ -5,10 +9,6 @@ C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\bin\Debug\Test.xml
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\bin\Debug\Editorial.dll
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\bin\Debug\Editorial.pdb
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\bin\Debug\Editorial.xml
-C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.vbprojAssemblyReference.cache
-C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.Resources.resources
-C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.vbproj.GenerateResource.cache
-C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.vbproj.CoreCompileInputs.cache
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.vbproj.CopyComplete
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.exe
 C:\Users\Romina\Desktop\FABIO19\Repaso\Editorial\Test\obj\Debug\Test.xml

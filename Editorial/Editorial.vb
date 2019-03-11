@@ -10,43 +10,36 @@
         Return _materiales
     End Function
     Shared Function GetAllMateriales(variable As Autor) As List(Of Material)
-        Dim listanueva As New List(Of Material)
+        Dim _enviarlista As New List(Of Material)
         For Each material In _materiales
-            'si el material contiene al autor recibido lo agregamos a la listanueva
-            If material.getAllAutores.Contains(variable) Then
-                listanueva.Add(material)
+            If material.GetAllAutores().Contains(variable) Then
+                If Not _enviarlista.Contains(material) Then
+                    _enviarlista.Add(material)
+                End If
             End If
         Next
-        Return listanueva
+        Return _enviarlista
     End Function
-    Shared Function GetAutor(dni As UInteger) As Autor
+    Shared Function GetAutor(variable As UInteger) As Autor
         For Each material In _materiales
-            ''traemos todos los autores de cada material y si existe dentro de el el DNI recibido
-            If material.getAllAutores.Exists(Function(a) a.DNI = dni) Then
-                ''devolvemos ese material con la funcion de encontrar por dni.
-                Return material.getAllAutores.Find(Function(a) a.DNI = dni)
+            If material.GetAllAutores.Exists(Function(a) a.Dni = variable) Then
+                Return material.GetAllAutores.Find(Function(a) a.Dni = variable)
             End If
         Next
-        Throw New Exception("El Dni " & dni & " no pertenece a ningún autor!")
+        Throw New Exception("Exception: Dni " & variable & " no pertenece a ningún autor")
     End Function
     Shared Function GetAllEmpleados() As List(Of Empleado)
-        Dim _listaEmpleados As New List(Of Empleado)
+        Dim _enviarLista As New List(Of Empleado)
         For Each material In _materiales
-            ''por cada material traigo todos los autores 
-            For Each empleado In material.getAllAutores()
-                '' si el empleado no esta en la lista lo agrego
-                If Not _listaEmpleados.Contains(empleado) Then
-                    _listaEmpleados.Add(empleado)
+            For Each autor In material.GetAllAutores()
+                If Not _enviarLista.Contains(autor) Then
+                    _enviarLista.Add(autor)
                 End If
             Next
-            ''si el editor no esta en la lista tambien lo agrego
-            If Not _listaEmpleados.Contains(material.Editor) Then
-                _listaEmpleados.Add(material.Editor)
+            If Not _enviarLista.Contains(material.Editor) Then
+                _enviarLista.Add(material.Editor)
             End If
         Next
-        Return _listaEmpleados
+        Return _enviarLista
     End Function
-    Sub New()
-        _materiales = New List(Of Material)
-    End Sub
 End Class
